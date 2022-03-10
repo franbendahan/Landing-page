@@ -19,9 +19,7 @@ for(let i=0; i<subMenuBtn.length; i++) {
             }  else {
                 subMenu.classList.add("desplegar");
                 subMenu.style.height = height + "px";
-
             }
-
         }
     });
 }
