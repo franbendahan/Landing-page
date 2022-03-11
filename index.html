@@ -8,53 +8,47 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
-  <!-- Fuente -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 
   <title>Fran</title>
 
 </head>
 
 <body>
-  
-  <span class="nav-bar" id="btnMenu">
-    <!-- Boton Menu -->
-    <img src="./images/bars-solid-menu.svg" alt="Boton de menu" width="30" height="50">
-    <!-- Logo -->
-    
-      <img src="./images/Logo Fran.png" alt="" >
-    
-  </span>
 
-  <nav class="main-nav">
-    <ul class="menu" id="menu">
-      <!-- Logo -->
-        <img id="logo-duplicado-raro" src="./images/Logo Fran.png" alt="" width="140" height="50">
-      <li class="menu-item"><a href="" class="menu-link">Inicio</a></li>
-      <!-- SubMenu -->
-      <li class="menu-item container-submenu">
-        <a href="#" class="menu-link submenu-btn">Categorias<img src="./images/angle-down-solid.svg" alt="" width="20" height="15"></a>
-        <ul class="submenu">
-          <li class="menu-item"><a href="#" class="menu-link">Buzos</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Camisas</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Pantalones</a></li>
-          <li class="menu-item"><a href="#" class="menu-link">Bermudas</a></li>
-        </ul>
-      </li>
-      <!-- ---------------------------------------------------------------------------------------- -->
-      <li class="menu-item"><a href="" class="menu-link">Promociones</a></li>
-      <li class="menu-item"><a href="" class="menu-link">Mi cuenta / Registrarse</a></li>
-    </ul>
-  </nav>
-  <!-- Promo envios -->
-  <div class="anuncio">
-    <img src="./images/promociones2x.webp" class="img-responsive" alt="Promocion en envios">
+  <div class="header">
+    <div class="botones-y-logo">
+      <img src="./images/bars-solid-menu.svg" id="hambur-header-only" class="boton-hamburguesa"  alt="Boton de menu" width="30" height="50">
+      <img src="./images/Logo Fran.png" alt="" width="140" height="50">
+    </div>
+    <div class="menu-desktop">
+      <a class="menu-item-nuevo" href="">Inicio</a>
+      <a class="menu-item-nuevo" href="">Categorias</a>
+      <a class="menu-item-nuevo" href="">Promociones</a>
+      <a class="menu-item-nuevo" href="">Mi cuenta / Registrarse</a>
+    </div>
   </div>
 
-  
-  <h3 class="nota">Las prendas en promocion se encuentran disponibles solo para retirar en el local</h3>
+  <div class="menu-mobile" id="menu-mobile">
+      <a class="menu-item-nuevo-dos" href="">Inicio</a>
+      <a class="menu-item-nuevo-dos" href="">Categorias</a>
+      <a class="menu-item-nuevo-dos" href="">Promociones</a>
+      <a class="menu-item-nuevo-dos" href="">Mi cuenta / Registrarse</a>
+  </div>
 
-  <div class="promociones"></div>
+  <div class="contenido">
+
+    <div class="anuncio">
+      <img src="./images/promociones2x.webp" class="img-responsive" alt="Promocion en envios">
+    </div>
+  
+    
+    <h3 class="nota">Las prendas en promocion se encuentran disponibles solo para retirar en el local</h3>
+  
+    <div class="promociones"></div>
+    
+  </div>
+ 
 
   <footer class="footer">
     <div class="columna1"></div>
