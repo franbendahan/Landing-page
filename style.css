@@ -70,13 +70,16 @@
 
 .anuncio {
     width: 100%;
-    
+
 }
+
+
 
 @media only screen and (min-width:1024px){
     .nav-bar {
         display: none;
     }
+
 
     .menu {
         margin-left: 0;
