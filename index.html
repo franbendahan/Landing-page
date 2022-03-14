@@ -2,84 +2,138 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
 
-  <title>Fran</title>
+    <title>Fran</title>
 
 </head>
 
 <body>
 
-  <div class="header">
-    <div class="botones-y-logo">
-      <img src="./images/bars-solid-menu.svg" id="hambur-header-only" class="boton-hamburguesa"  alt="Boton de menu" width="30" height="50">
-      <img src="./images/Logo Fran.png" alt="" width="140" height="50">
+    <div class="header">
+        <div class="botones-y-logo">
+            <img src="./images/bars-solid-menu.svg" id="hambur-header-only" class="boton-hamburguesa"
+                alt="Boton de menu" width="30" height="50">
+            <img src="./images/Logo Fran.png" alt="" width="140" height="50">
+        </div>
+        <div class="menu-desktop">
+            <a class="menu-item-nuevo" href="">Inicio</a>
+            <a class="menu-item-nuevo" href="">Categorias</a>
+            <a class="menu-item-nuevo" href="#promociones">Promociones</a>
+            <a class="menu-item-nuevo" href="">Mi cuenta / Registrarse</a>
+        </div>
     </div>
-    <div class="menu-desktop">
-      <a class="menu-item-nuevo" href="">Inicio</a>
-      <a class="menu-item-nuevo" href="">Categorias</a>
-      <a class="menu-item-nuevo" href="">Promociones</a>
-      <a class="menu-item-nuevo" href="">Mi cuenta / Registrarse</a>
+
+    <div class="menu-mobile" id="menu-mobile">
+        <a class="menu-item-nuevo-dos" href="">Inicio</a>
+        <a class="menu-item-nuevo-dos" href="">Categorias</a>
+        <a class="menu-item-nuevo-dos" href="#promociones">Promociones</a>
+        <a class="menu-item-nuevo-dos" href="">Mi cuenta / Registrarse</a>
     </div>
-  </div>
 
-  <div class="menu-mobile" id="menu-mobile">
-      <a class="menu-item-nuevo-dos" href="">Inicio</a>
-      <a class="menu-item-nuevo-dos" href="">Categorias</a>
-      <a class="menu-item-nuevo-dos" href="">Promociones</a>
-      <a class="menu-item-nuevo-dos" href="">Mi cuenta / Registrarse</a>
-  </div>
+    <div class="contenido">
 
-  <div class="contenido">
+        <div class="anuncio">
+            <img src="./images/promociones2x.webp" class="img-responsive" alt="Promocion en envios">
+        </div>
 
-    <div class="anuncio">
-      <img src="./images/promociones2x.webp" class="img-responsive" alt="Promocion en envios">
+
+        <h3 class="nota">Las prendas en promocion se encuentran disponibles para compra ONLINE</h3>
+
+
     </div>
-  
-    
-    <h3 class="nota">Las prendas en promocion se encuentran disponibles solo para retirar en el local</h3>
-  
-    <div class="promociones"></div>
-    
-  </div>
- 
 
-  <footer class="footer">
-    <div class="columna1"></div>
-    <div class="columna2"></div>
-    <div class="columna3"></div>
-    <div class="columna4"></div>
+    <!-- Login / Registro -->
 
-    <div class="container-rrss">
-      <ul class="rrss">
-        <li></li>
-        <li></li>
-      </ul>
+    <div class="container-global-logreg">
+        <div class="container-login">
+            <div class="login">
+                <h1>Login</h1>
+                <form method="post">
+                    <input type="text" name="u" placeholder="Username" required="required" />
+                    <input type="password" name="p" placeholder="Password" required="required" />
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+                </form>
+            </div>
+        </div>
+        <div class="registro"></div>
     </div>
-  </footer>
 
-  <div class="btn-group">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-      Título del botón <span class="caret"></span>
-    </button>
+    <!-- Promociones  -->
+    <div class="promociones">
+        <section class="section-prices" id="promociones">
+            <h2 class="section-header">PROMOCIONES</h2>
+            <div class="list-boxs">
+                <div class="card campera">
+                    <div class="head">Campera</div>
+                    <div class="ticket">$6.800</div>
+                    <div class="body">
+                        <div class="img-promo">
+                            <img src="./images/Campera frente.jpg" class="img-responsive frente"
+                                alt="Campera hombre vista frente">
+                            <img src="./images/Campera dorso.jpg" class="img-responsive dorsal"
+                                alt="Campera hombre dorso">
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+                <div class="card jean">
+                    <div class="head">
+                        Jean
+                    </div>
+                    <div class="ticket">$5.450</div>
+                    <div class="body">
+                        <div class="img-promo">
+                            <img src="./images/Jean frente.jpg" class="img-responsive frente"
+                                alt="Jean hombre vista frente">
+                            <img src="./images/Jean dorso.jpg" class="img-responsive dorsal" alt="Jean hombre dorso">
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+                <div class="card camisa">
+                    <div class="head">
+                        Camisa
+                    </div>
+                    <div class="ticket">$6.000</div>
+                    <div class="body">
+                        <div class="img-promo">
+                            <img src="./images/Camisa frente.jpg" class="img-responsive frente"
+                                alt="Camisa hombre vista frente">
+                            <img src="./images/Camisa dorso.jpg" class="img-responsive dorsal"
+                                alt="Camisa hombre dorso">
+                        </div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <ul class="dropdown-menu" role="menu">
-      <li><a href="#">Acción #1</a></li>
-      <li><a href="#">Acción #2</a></li>
-      <li><a href="#">Acción #3</a></li>
-      <li class="divider"></li>
-      <li><a href="#">Acción #4</a></li>
-    </ul>
-  </div>
+    </div>
 
-  <!-- JavaScript -->
-  <script src="./app.js"></script>
+    <footer class="footer">
+        <div class="columna1"></div>
+        <div class="columna2"></div>
+        <div class="columna3"></div>
+        <div class="columna4"></div>
+
+        <div class="container-rrss">
+            <ul class="rrss">
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="./app.js"></script>
 </body>
 
 </html>
