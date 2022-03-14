@@ -26,7 +26,7 @@
             <a class="menu-item-nuevo" href="">Inicio</a>
             <a class="menu-item-nuevo" href="">Categorias</a>
             <a class="menu-item-nuevo" href="#promociones">Promociones</a>
-            <a class="menu-item-nuevo" href="">Mi cuenta / Registrarse</a>
+            <a class="menu-item-nuevo" href="#registro">Mi cuenta / Registrarse</a>
         </div>
     </div>
 
@@ -34,7 +34,7 @@
         <a class="menu-item-nuevo-dos" href="">Inicio</a>
         <a class="menu-item-nuevo-dos" href="">Categorias</a>
         <a class="menu-item-nuevo-dos" href="#promociones">Promociones</a>
-        <a class="menu-item-nuevo-dos" href="">Mi cuenta / Registrarse</a>
+        <a class="menu-item-nuevo-dos" href="#registro">Mi cuenta / Registrarse</a>
     </div>
 
     <div class="contenido">
@@ -44,7 +44,7 @@
         </div>
 
 
-        <h3 class="nota">Las prendas en promocion se encuentran disponibles para compra ONLINE</h3>
+        <h3 class="nota">Las prendas en PROMOCION se encuentran solo disponibles para compra ONLINE</h3>
 
 
     </div>
@@ -52,17 +52,34 @@
     <!-- Login / Registro -->
 
     <div class="container-global-logreg">
+        <!-- Login -->
         <div class="container-login">
-            <div class="login">
-                <h1>Login</h1>
+            <div class="login" id="login">
+                
+                    <h1>Iniciar Sesion</h1>
+                
                 <form method="post">
                     <input type="text" name="u" placeholder="Username" required="required" />
                     <input type="password" name="p" placeholder="Password" required="required" />
-                    <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Aceptar</button>
                 </form>
             </div>
         </div>
-        <div class="registro"></div>
+        <!-- Registro -->
+        <div class="container-login">
+            <div class="login" id="registro">
+                
+                    <h1>Registrarse</h1>
+                
+                <form method="post">
+                    <input type="text" name="nombre" placeholder="Nombre" required="required" />
+                    <input type="text" name="apellido" placeholder="Apellido" required="required" />
+                    <input type="email" name="email" placeholder="ejemplo@gmail.com" required="required" />
+                    <input type="password" name="p" placeholder="Password" required="required" />
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Registro</button>
+                </form>
+            </div>
+        </div>
     </div>
 
     <!-- Promociones  -->
@@ -117,17 +134,45 @@
 
     </div>
 
-    <footer class="footer">
-        <div class="columna1"></div>
-        <div class="columna2"></div>
-        <div class="columna3"></div>
-        <div class="columna4"></div>
 
+    <!-- Ayuda  -->
+    <div class="ayuda">
+
+        <div class="columna">
+            <h2>AYUDA</h2>
+            <a href="" class="link">Guía De Talles</a>
+            <a href="" class="link">¿Cómo Comprar?</a>
+            <a href="" class="link">Envíos</a>
+            <a href="" class="link">Preguntas Frecuentes</a>
+        </div>
+
+        <div class="columna">
+            <h2>MI CUENTA</h2>
+            <a href="" class="link">Mi Cuenta</a>
+            <a href="" class="link">Pedidos</a>
+            <a href="" class="link">Detalles De La Cuenta</a>
+            <a href="" class="link">Perdi Mi Contraseña</a>
+        </div>
+
+        <div class="columna">
+            <h2>LOCALES</h2>
+            <a href="" class="link">Av Siempre Viva 742</a>
+            <a href="" class="link">Segurola y Habanna 4310</a>
+            <a href="" class="link">Patio Olmos</a>
+            <a href="" class="link">Palermo Soho</a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
         <div class="container-rrss">
-            <ul class="rrss">
-                <li></li>
-                <li></li>
-            </ul>
+            <span class="span">Hecho por Francisco Bendahan</span>
+            <div class="rrss">
+                <a href="https://www.instagram.com/franbendahan/"> <img src="images/instagram.svg" width="35" height="55" alt="Icono Instagram"></a>
+               <a href="https://twitter.com/El_prochi"> <img src="images/Twitter.svg" width="60" height="60" alt="Icono de Twitter"> </a> 
+            </div>
         </div>
     </footer>
 
